@@ -511,7 +511,8 @@ div.cell.selected:before {
 
 pre,
 code,
-kbd {
+kbd,
+samp {
   white-space: pre-wrap;
 }
 
