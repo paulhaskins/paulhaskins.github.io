@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>haskinsp@tcd.ie</a>. 
+subtitle: <a href='mailto:haskinsp@tcd.ie'>haskinsp@tcd.ie</a>. 
 
 profile:
   align: right
