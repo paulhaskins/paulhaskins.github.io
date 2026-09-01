@@ -2,7 +2,7 @@
 layout: page
 title:  Black Hole Entropy
 description: A review of Bekenstein's 1973 paper on Black Hole Entropy.
-img: assets/img/3.jpg
+img: assets/img/1000022046.jpg
 importance: 2
 category: work
 giscus_comments: true
@@ -44,7 +44,7 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 -->
-[View the full PDF]({{ '/assets/pdf/black-hole-entropy.pdf' | relative_url }})
+[View the full PDF]({{ '/assets/pdf/Black_Hole_Entropy.pdf' | relative_url }})
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
