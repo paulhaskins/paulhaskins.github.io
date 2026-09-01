@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "al-folio",
+      "runtimeExecutable": "ruby",
+      "runtimeArgs": ["/usr/lib/ruby/gems/3.3.0/gems/bundler-2.5.22/exe/bundle", "exec", "jekyll", "serve"],
+      "port": 4000,
+      "url": "http://localhost:4000"
+    }
+  ]
+}
