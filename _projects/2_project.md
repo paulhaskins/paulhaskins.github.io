@@ -2,7 +2,7 @@
 layout: page
 title: Black Hole Entropy
 description: A review of Bekenstein's 1973 paper on Black Hole Entropy.
-img: assets/img/1000022046.jpg
+img: assets/img/black_hole_entropy_preview.jpg
 importance: 2
 category: work
 ---
