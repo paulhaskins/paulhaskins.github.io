@@ -6,7 +6,7 @@ email: haskinsp@tcd.ie # your email address
 
 #inspirehep_id: 1010907 # Inspire HEP author ID
 
-rss_icon: true # comment this line to hide the RSS icon
+#rss_icon: true # comment this line to hide the RSS icon
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 linkedin_username: paul-haskins-5a9a14296
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)

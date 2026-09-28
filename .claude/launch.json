@@ -3,8 +3,16 @@
   "configurations": [
     {
       "name": "al-folio",
-      "runtimeExecutable": "ruby",
-      "runtimeArgs": ["/usr/lib/ruby/gems/3.3.0/gems/bundler-2.5.22/exe/bundle", "exec", "jekyll", "serve"],
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "GEM_HOME=/home/paul/Documents/Website/paulhaskins.github.io/vendor/bundle/ruby/3.3.0",
+        "PATH=/home/paul/Documents/Website/paulhaskins.github.io/vendor/bundle/ruby/3.3.0/bin:/home/paul/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "ruby",
+        "/home/paul/Documents/Website/paulhaskins.github.io/vendor/bundle/ruby/3.3.0/bin/bundle",
+        "exec",
+        "jekyll",
+        "serve"
+      ],
       "port": 4000,
       "url": "http://localhost:4000"
     }
