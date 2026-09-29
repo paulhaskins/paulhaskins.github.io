@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /notes/
 
 Sitemap: https://paulhaskins.github.io/sitemap.xml

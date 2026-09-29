@@ -1,0 +1,253 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Some Class}\\Random Examples}
+\author{\huge{Paul Haskins 22338905}}
+\date{}
+
+\begin{document}
+\title{Homework 1}
+\author{Paul Haskins}
+\date{\today}
+\maketitle
+
+\begin{Large}
+        Exercise 1:\\
+        Properties of sequences (40pts)
+Let $\left\{\vec{x}_n\right\}$ and $\left\{\vec{y}_n\right\}$ be two sequences of points in $\mathbb{R}^m$, and let $\lambda \in \mathbb{R}$ be a real number. Suppose that $\left\{\vec{x}_n\right\}$ converges to a point $\vec{p}$, and $\left\{\vec{y}_n\right\}$ converges to a point $\vec{q}$. By giving a formal $\varepsilon-N$ proof, establish the following:\\
+(10pts) The sequence $\left\{\lambda \vec{x}_n\right\}$ converges to $\lambda \vec{p}$,
+Hint: consider $\lambda=0$ as a separate case.\\
+(10pts) The sequence $\left\{\vec{z}_n=\vec{x}_n+\vec{y}_n\right\}$ converges to $\vec{p}+\vec{q}$.
+(20pts) The sequence of real numbers $\left\{a_n=\left\langle\vec{x}_n, \vec{y}_n\right\rangle\right\}$ given by the inner product of $\vec{x}_n$ with $\vec{y}_n$ converges to the inner product $\langle\vec{p} \vec{q}\rangle$.
+Hint: Using the following, apply the Cauchy-Schwarz inequality
+
+$$
+\langle\vec{x}, \vec{y}\rangle-\langle\vec{p}, \vec{q}\rangle=\langle\vec{x}-\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{x}-\vec{p}, \vec{q}\rangle
+$$
+        
+
+\end{Large}
+\newpage
+
+\begin{Large}
+        Since {$\vec{x_n}$} converges to $  \vec{p} \to  \exists \epsilon >0  $ s.t 
+        \[
+                |\vec{x_n} - \vec{p} |< \epsilon
+        .\] 
+        let $\lambda \in \mathsbb{R}$\[
+        \exists  \mid \lambda  \mid  \neq 0 \implies  \mid  \lambda  \mid  ( \mid \vec{x_n} - \vec{p} \mid  ) < |\lambda |\epsilon
+        .\] 
+        \[
+                \implies | \lambda \vec{x_n}- \lambda \vec{p} | < \lambda \epsilon
+        .\] 
+        Now we consider the case $\lambda =0$, Then  $\forall \vec{x_k} \in \{\vec{x_n}\} $ we have $\lambda \vec{x_k}$ where  $\lambda =0 \implies 0 \vec{x_k}=\vec{0}$. Thus if $\lambda =0$  $\{\vec{x_n\}} = {\vec{0}}$.\\
+        
+        \vspace{200pt}
+        We have the for $  \{\vec{x_n}\} $ converges to $ \vec{p} $. Thus by the same reasoning $  \{\vec{y_n}\} $  converges to $  \vec{q } $. Thus $ \forall k \in \mathbb{N}$, $ \vec{x_k} \to \vec{p}, \vec{y_k} \to \vec{q}$. Then if we pick any $\vec{y_k}+\vec{x_k} \to \vec{q}+\vec{p} = \{ \vec{z_n} \}$
+
+
+
+        \vspace{200pt}\\
+Cauchy swartz ineq: 
+\[
+       | <\vec{x}, \vec{y} >| \leq \| \vec{x}   \| \| \vec{y} \|
+.\] 
+\[
+
+\langle\vec{x}, \vec{y}\rangle-\langle\vec{p}, \vec{q}\rangle=\langle\vec{x}-\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{x}-\vec{p}, \vec{q}\rangle
+.\] \\
+Taking the magnitude:\\
+\[
+| \langle\vec{x}, \vec{y}\rangle-\langle\vec{p}, \vec{q}\rangle|=|\langle\vec{x}-\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{x}-\vec{p}, \vec{q}\rangle|
+
+.\] \\
+\[
+|\langle\vec{x}, \vec{y}\rangle-\langle\vec{p}, \vec{q}\rangle| = |\langle\vec{x}-\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{x}-\vec{p}, \vec{q}\rangle|
+\]
+\[
+ |\langle\vec{x}-\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{p}, \vec{y}-\vec{q}\rangle+\langle\vec{x}-\vec{p}, \vec{q}\rangle| \leq  |\langle\vec{x}-\vec{p}, \vec{y}-\vec{q}\rangle|+|\langle\vec{p}, \vec{y}-\vec{q}\rangle|+|\langle\vec{x}-\vec{p}, \vec{q}\rangle| 
+.\] 
+
+\[
+        \leq \| \vec{x}-\vec{p} \| \| \vec{y}-\vec{q} \|+ \|\vec{p} \| \|\vec{y}-\vec{q} \| + \|\vec{x}-\vec{p} \|\|\vec{q}\|
+.\] 
+We see each term converges as $\vec{x}$, $\vec{y}$ converge and $\vec{p}$,  $\vec{q}$ are finite. Thus the three terms converge to some finite $\alpha$, $\beta$, $\gamma$ respectivly. Thus we have:
+\[
+| \langle\vec{x}, \vec{y}\rangle-\langle\vec{p}, \vec{q}\rangle| \leq \alpha + \beta + \gamma = \epsilon
+.\] So $\langle\vec{x}, \vec{y}\rangle-\langle\vec{p}, \vec{q}\rangle=$ converges.  \[
+\implies \langle\vec{x}, \vec{y}\rangle \to  \langle\vec{p}, \vec{q}\rangle
+.\] 
+\end{Large}
+\\
+
+\begin{Large}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ \newpage               
+
+
+EExercise 2 Matrix norms (60pts)
+In the following, you may use any standard facts from your Let $A: \mathbb{R}^m \rightarrow \mathbb{R}^s$ be a linear transformation represented by the $(s \times m)$-matrix $\left(A_{i, j}\right)_{\substack{1 \leq i \leq s \\ 1 \leq j \leq m}}$ with respect to the standard bases. We define the Hilbert-Schmidt norm of $T$ by
+
+$$
+\|A\|_{H S}:=\sqrt{\sum_{i=1}^s \sum_{j=1}^m A_{i, j}^2}
+$$
+
+(15 pts) Show that, for any $\vec{x} \in \mathbb{R}^m$,
+
+$$
+\|A \vec{x}\| \leq\|A\|_{H S}\|\vec{x}\|
+$$
+
+
+Hint: what are the components of $A \vec{x}$ and how could we bound them using the Cauchy-Schwarz inequality?
+(15 pts) Show that, given linear transformations
+
+$$
+A: \mathbb{R}^m \rightarrow \mathbb{R}^s \text { and } B: \mathbb{R}^s \rightarrow \mathbb{R}^t
+$$
+
+the Hilbert Schmidt norm satisfies
+
+$$
+\|B A\|_{H S} \leq\|B\|_{H S}\|A\|_{H S}
+$$
+
+(15 pts) Denoting by $A^T$ the transpose of the matrix $A$, and by $\operatorname{tr}(M)$ the trace of a square matrix $M$, show that
+
+$$
+\|A\|_{H S}^2=\operatorname{tr}\left(A^T A\right)
+$$
+
+(15 pts) Let $A: \mathbb{R}^3 \rightarrow \mathbb{R}^3$ be given by the below matrix, and define a sequence of points in $\mathbb{R}^3$ by $\vec{x}_n:=A^{n-1} \vec{x}_1$, where $\vec{x}_1$ is given below. Prove that $\left\{\vec{x}_n\right\}$ converges to $\overrightarrow{0}$.
+
+$$
+A=\left(\begin{array}{ccc}
+\frac{1}{2} & 0 & \frac{1}{2} \\
+0 & \frac{1}{3} & \frac{1}{3} \\
+\frac{1}{5} & \frac{1}{10} & 0
+\end{array}\right), \quad \vec{x}_1=\left(\begin{array}{l}
+1 \\
+2 \\
+3
+\end{array}\right)
+$$
+
+
+
+
+
+
+
+\end{Large}
+\newpage
+
+
+\begin{Large}
+        \textbf{2a}\\
+        \\
+        \[
+                (A\vec{x})_i = \sum_{n=1}^{m} A_{i,j}x_j
+        .\] 
+        \[
+                \|A\vec{x}\| = \sqrt{\sum_{n=i}^{s} (Ax)_i^2} 
+        .\] \\
+        Cauchy swartz implies:
+        \[
+         | <A_{i,j},x_j>|^2 \leq \|A_{i,j}\|^2 \|x_i\|^2
+        .\] \[
+        \|A \vec{x}\|  \leq \sqrt{\sum_{n=i}^{s} \left(\sum_{j=1}^{m} A_{i,j}\right)^2} \sqrt{\sum_{j=1}^{m} x_j^2} 
+        .\] 
+        \[
+                \|A \vec{x}\| \leq \|A\|_{HS}\|\vec{x}\|
+        .\] \\
+        \vspace{200pt}\\
+        \textbf{2b}\\
+        We have \[
+        \|BA\|_{HS}= \sqrt{\sum_{i=1}^{t} \left(\sum_{q=1}^{m} \left(BA\right)_k^2\right)} 
+        .\] \[
+        |<B_{j,k} , A_{j,i}>| \leq \|A_i\|\|B_k\|
+
+        .\]
+\[
+\|BA\|_{HS} \leq \sqrt{\sum_{k=1}^{t} \left( \sum_{j=1}^{s} B_j^2\right)} \sqrt{\sum_{i=1}^{m} \left( \sum_{j=1}^{m} A_j^2\right)} 
+.\] 
+\[
+\|BA\|_{HS} \leq \|B\|_{HS} \|A\|_{HS}
+.\] 
+\newpage
+\textbf{2c}\\
+\\
+\[
+\left( A^{T}A\right)_{i,k} = \sum_{j=1}^{s} A_{j,i}A_{j,k}
+.\] 
+\[
+tr\left(A^{T}A\right) = \sum_{i=1}^{m} \left(A^{T}A\right)_{i,i}
+.\] 
+\[
+= \sum_{i=1}^{m} \sum_{i=1}^{s} A_{i,i}^2
+.\] 
+And we have 
+\[
+
+\|A\|_{H S}^2=\sum_{i=1}^s \sum_{j=1}^m A_{i, j}^2
+.\] Where $i$ and $j$ are just bookeeping indices. Thus we have \[
+\|A\|_{HS}^2= tr\left( A^{T}A\right)
+.\] as required.
+\newpage
+\\
+\textbf{2d}\\
+\\
+Here I calculated the eigienvectors using mathematica to be (approximatly).
+\\
+$
+\vec{x}_1=\left(\begin{array}{l}
+2.879\\
+ 0.979\\
+1
+\end{array}\right), 
+\vec{x}_2=\left(\begin{array}{l}
+-3.669 \\
+10.974\\
+1
+\end{array}\right), 
+\vec{x}_3=\left(\begin{array}{l}
+-0.0710\\
+-0.0620\\
+1
+\end{array}\right), $
+Thus we can diagonalise the matrix to get  $A=SJS^{-1}$. Explicitly we have:
+\[
+A= \begin{pmatrix}
+-0.710 & -3.669 & 2.879\\
+-0.620 & 10.974 & 0.979\\
+1 & 1 & 1
+\end{pmatrix} \begin{pmatrix}
+-0.710 & 0 & 0\\
+0 & 0.364 & 0\\
+0 & 0 & .674
+\end{pmatrix}\begin{pmatrix}
+-0.216 & -0.141 & 0.759\\
+-0.035 & 0.077 & 0.024\\
+0.250 & 0.064 & 0.674
+\end{pmatrix}
+.\] 
+Now we can use the properties of diagonlaised matrices. ie $A^k= S J^{k}S^{-1}$, $\forall k>0$.
+Here we see that we are rasing the $J$ matrix which consists of a diagonal with all entries $\leq 1$. We know that  $\forall p \in \mathbb{R} | \|p\|\leq 1$ as we take $p^{k}$ for large $k$ $p^{k}\to 0$. Thus we are multiplying each component by smaller and smaller numbers $J_i$, each $J_i\leq 1 \leq \epsilon$ for some finite $\epsilon$ . Since  $\vec{x_n}$ is finite and we multiply by a matrix which converges to $\vec{0}$ then the composition of  $\vec{x_n}= A^{n-1}\vec{x_1}$ must converge to $\vec{0}$.
+\end{Large}
+
+\end{document}
