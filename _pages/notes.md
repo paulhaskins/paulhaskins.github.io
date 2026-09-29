@@ -172,6 +172,14 @@ sitemap: false
     </ul>
   </div>
   <!-- QFSG_AUTO_START -->
+  <div class="notes-group">
+    <h2>qfsg/</h2>
+    <ul class="notes-list">
+      <li><a href="{{ '/assets/pdf/notes/qfsg/m/hw/1/t.pdf' | relative_url }}" target="_blank" rel="noopener">m/hw/1</a></li>
+      <li><a href="{{ '/assets/pdf/notes/qfsg/m/hw/2/t.pdf' | relative_url }}" target="_blank" rel="noopener">m/hw/2</a></li>
+      <li><a href="{{ '/assets/pdf/notes/qfsg/m/t.pdf' | relative_url }}" target="_blank" rel="noopener">m</a></li>
+    </ul>
+  </div>
   <!-- QFSG_AUTO_END -->
 
 </div>
