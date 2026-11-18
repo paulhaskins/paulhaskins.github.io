@@ -3,7 +3,8 @@ layout: page
 title: Notes
 permalink: /notes/
 description: Personal working notes and coursework PDFs.
-nav: false
+nav: true
+nav_order: 1
 sitemap: false
 ---
 
