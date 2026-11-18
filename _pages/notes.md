@@ -53,10 +53,28 @@ sitemap: false
 
 <div class="notes-group">
   <h2>Public</h2>
-  <ul class="notes-list">
-    <li><a href="{{ '/assets/pdf/notes/qfsg/m/t.pdf' | relative_url }}" target="_blank" rel="noopener">qfsg/m</a></li>
-    <li><a href="{{ '/assets/pdf/notes/qfsg/cft/t.pdf' | relative_url }}" target="_blank" rel="noopener">qfsg/cft</a></li>
-  </ul>
+  <div class="row row-cols-1 row-cols-md-3">
+    <div class="col">
+      <a href="{{ '/assets/pdf/notes/qfsg/m/t.pdf' | relative_url }}" target="_blank" rel="noopener">
+        <div class="card h-100 hoverable">
+          <img class="card-img-top" src="{{ '/assets/img/qfsg_m_preview.jpg' | relative_url }}" alt="qfsg/m thumbnail">
+          <div class="card-body">
+            <h2 class="card-title">qfsg/m</h2>
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col">
+      <a href="{{ '/assets/pdf/notes/qfsg/cft/t.pdf' | relative_url }}" target="_blank" rel="noopener">
+        <div class="card h-100 hoverable">
+          <img class="card-img-top" src="{{ '/assets/img/qfsg_cft_preview.jpg' | relative_url }}" alt="qfsg/cft thumbnail">
+          <div class="card-body">
+            <h2 class="card-title">qfsg/cft</h2>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
 
 <div id="notes-gate">
