@@ -195,7 +195,7 @@ sitemap: false
 
 <script>
   (function () {
-    var PASSWORD_HASH = "0d3cb1b21734367f65d267b902b3122a1afcb108ec0405f6c8d53473c2fab48a";
+    var PASSWORD_HASH = "28f99741ddaa2ebb553733be2012124cdace884ea36eed96d29d8ae36e1b2206";
     var gate = document.getElementById("notes-gate");
     var content = document.getElementById("notes-content");
     var input = document.getElementById("notes-password");
