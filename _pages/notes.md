@@ -50,8 +50,16 @@ sitemap: false
   }
 </style>
 
+<div class="notes-group">
+  <h2>Public</h2>
+  <ul class="notes-list">
+    <li><a href="{{ '/assets/pdf/notes/qfsg/m/t.pdf' | relative_url }}" target="_blank" rel="noopener">qfsg/m</a></li>
+    <li><a href="{{ '/assets/pdf/notes/qfsg/cft/t.pdf' | relative_url }}" target="_blank" rel="noopener">qfsg/cft</a></li>
+  </ul>
+</div>
+
 <div id="notes-gate">
-  <p>This page is password protected.</p>
+  <p>The rest of this page is password protected.</p>
   <input type="password" id="notes-password" placeholder="Password" autocomplete="off">
   <button type="button" class="btn btn-outline-primary" id="notes-unlock">Unlock</button>
   <p id="notes-error" hidden>Incorrect password.</p>
@@ -175,6 +183,7 @@ sitemap: false
   <div class="notes-group">
     <h2>qfsg/</h2>
     <ul class="notes-list">
+      <li><a href="{{ '/assets/pdf/notes/qfsg/cft/t.pdf' | relative_url }}" target="_blank" rel="noopener">cft</a></li>
       <li><a href="{{ '/assets/pdf/notes/qfsg/m/hw/1/t.pdf' | relative_url }}" target="_blank" rel="noopener">m/hw/1</a></li>
       <li><a href="{{ '/assets/pdf/notes/qfsg/m/hw/2/t.pdf' | relative_url }}" target="_blank" rel="noopener">m/hw/2</a></li>
       <li><a href="{{ '/assets/pdf/notes/qfsg/m/t.pdf' | relative_url }}" target="_blank" rel="noopener">m</a></li>

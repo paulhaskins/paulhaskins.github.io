@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Written Thesis
-description: Full written thesis, "Quantum Black Holes and The Gravitational Path Integral," supervised by Prof. Jan Manschot. PDF coming soon.
-img:
+description: Full written thesis, "Quantum Black Holes and The Gravitational Path Integral," supervised by Prof. Jan Manschot.
+img: assets/img/thesis_preview.jpg
 importance: 3
 category: work
 ---
 
-The full written thesis will be linked here once it's added.
+[View the full thesis]({{ '/assets/pdf/thesis.pdf' | relative_url }})
